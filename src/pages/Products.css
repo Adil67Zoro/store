@@ -1,0 +1,75 @@
+
+.product{
+    background-color: white;
+    border: 1px solid ;
+    margin: 10px;
+    width: 330px;
+    height: 400px;
+}
+
+.purchase{
+    background-color: lightblue;
+    border: none;
+    font-size: 22px;
+    padding: 10px;
+    margin: 10px;
+    transform: translateX(30%);
+}
+
+.name {
+    margin-top: 30px;
+    font-size: 22px;
+}
+
+.price{
+    font-size: 27px;
+    transform: translateY(140%);
+    margin-right: 180px;
+}
+
+.product:hover{
+    border: 5px solid lightblue;
+}
+
+.purchase:hover{
+    background-color: rgb(98, 189, 219);
+}
+
+.image{
+    width: 220px;
+    height: 220px;
+}
+
+.img_modal{
+    width: 250px;
+    height: 350px;
+}
+
+.name_modal{
+    font-size: 26px;
+    transform: translateY(-1100%);
+    margin-left: 270px;
+}
+
+.price_modal{
+    font-size: 26px;
+    transform: translateY(400%);
+}
+
+.descr{
+    margin-left: 260px;
+    transform: translateY(-800%);
+}
+
+.purchase_modal{
+    background-color: lightblue;
+    border: none;
+    font-size: 22px;
+    padding: 10px;
+    margin-left: 600px;
+    transform: translateY(200%);
+}
+
+.purchase_modal:hover{
+    background-color: rgb(98, 189, 219);
+}

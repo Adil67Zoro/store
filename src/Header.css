@@ -1,0 +1,195 @@
+*{
+    margin: 0;
+}
+
+.App {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    overflow: visible;
+}
+
+.header{
+    background-color: lightblue;
+    width: 1703px;
+    height: 130px;
+    border: 2px solid;
+}
+
+.sipnav{
+    font-size: 45px;
+    background-color: lightblue;
+    border: none;
+    margin-left: 25px;
+    margin-top: 20px;
+    color: black;
+}
+
+.icon__cart {
+    width: 40px;
+    margin-top: 7px;
+}
+
+.account{
+    position: relative;
+    display: inline-block;
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    transform: translateY(10%);
+    background-color: white;
+    transition: background-color 0.2s ease;
+}
+
+.account:hover{
+    background-color: lightgray;
+}
+
+.icon__account {
+    width: 40px;
+}
+
+.cart{
+    border: 2px solid black;
+    border-radius: 50px;
+    width: 90px;
+    height: 90px;
+    background-color: white;
+    transition: background-color 0.2s ease;
+    margin-left: 1250px;
+    margin-right: 20px;
+}
+
+.login{
+    height: 60px;
+    width: 90px;
+    border: 2px solid black;
+    border-radius: 25px;
+    background-color: white;
+    font-size: 24px;
+}
+
+.login:hover{
+    background-color: lightblue;
+}
+
+.box_login {
+    display: flex;
+    flex-direction: column;
+}
+
+.box_register {
+    display: flex;
+    flex-direction: column;
+}
+
+.dropdown_menu{
+    display: none;
+    position: absolute;
+    top: 100%;
+}
+
+.account:hover .dropdown_menu {
+    display: block;
+} 
+
+.options{
+    width: 100px;
+    background-color: white;
+    border: 1px solid black;
+    font-size: 16px;
+    padding: 5px;
+    transform: translateX(-20%);
+    transition: background-color 0.2s ease;
+}
+
+.options:hover{
+    background-color: rgb(209, 212, 215);
+}
+
+.cart:hover{
+    background-color: lightgray;
+}
+
+.Heading{
+    width: 1703px;
+    height: 75px;
+    border-bottom: 2px solid;
+    border-right: 2px solid;
+    border-left: 2px solid;
+}
+
+.catalog{
+    background-color: white;
+    border: 1px solid;
+    font-size: 20px;
+}
+
+.catalog_icon{
+    width: 30px;
+    height: 30px;
+    transform: translateY(20%);
+    margin-right: 2px;
+}
+
+.catalog{
+    width: 200px;
+    border: none;
+    border-radius: 20px;
+    padding-bottom: 5px;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-right: 5px;
+    margin-bottom: 5px;
+    transition: background-color 0.2s ease;
+}
+
+.catalog:hover{
+    background-color: lightgray;
+}
+
+.catalog_products{
+    display: flex;
+    flex-direction: column;
+}
+
+.phones{
+    background-color: white;
+    border: 1px solid;
+    border-radius: 16px;
+    font-size: 20px;
+    margin-bottom: 10px;
+    transition: 0.2s ease;
+    padding: 5px;
+}
+
+.laptops{
+    background-color: white;
+    font-size: 20px;
+    border-radius: 16px;
+    border: 1px solid;
+    transition: 0.2s ease;
+    padding: 5px;
+}
+
+.phones:hover{
+    background-color: lightblue;
+}
+
+.laptops:hover{
+    background-color: lightblue;
+}
+
+.product_count{
+    font-size: 20px;
+}
+
+.login_error{
+    color: red;
+}
+
+.register_error{
+    color: red;
+}
